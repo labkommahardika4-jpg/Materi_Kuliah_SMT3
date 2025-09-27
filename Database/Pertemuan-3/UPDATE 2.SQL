@@ -1,0 +1,3 @@
+UPDATE mahasiswa
+SET nama = 'SUSI SUSANTI', jurusan = 'TEKNIK INFORMATIKA'
+WHERE NIM = '123461'
