@@ -1,0 +1,2 @@
+DELETE FROM mahasiswa 
+WHERE NIM = '123456'
