@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Company Profile</title>
+  <!-- CDN Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md fixed w-full z-10 top-0">
+    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-blue-600">MyCompany</h1>
+      <ul class="flex space-x-6">
+        <li><a href="#home" class="hover:text-blue-600 font-medium">Home</a></li>
+        <li><a href="#services" class="hover:text-blue-600 font-medium">Services</a></li>
+        <li><a href="#about" class="hover:text-blue-600 font-medium">About</a></li>
+        <li><a href="#gallery" class="hover:text-blue-600 font-medium">Gallery</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="h-screen flex flex-col justify-center items-center bg-gradient-to-r from-blue-500 to-indigo-600 text-white text-center px-4">
+    <h2 class="text-4xl md:text-5xl font-bold mb-4">Selamat Datang di MyCompany</h2>
+    <p class="text-lg md:text-xl max-w-2xl mb-6">Kami adalah perusahaan profesional yang menyediakan solusi bisnis modern dan inovatif untuk Anda.</p>
+    <a href="#services" class="bg-white text-blue-600 px-6 py-3 rounded-full font-semibold hover:bg-gray-100 transition">Pelajari Lebih Lanjut</a>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="py-20 bg-gray-100">
+    <div class="container mx-auto px-6 text-center">
+      <h3 class="text-3xl font-bold mb-10 text-gray-800">Layanan Kami</h3>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition">
+          <h4 class="text-xl font-semibold mb-3 text-blue-600">Konsultasi Bisnis</h4>
+          <p>Kami membantu Anda merancang strategi bisnis yang efektif dan efisien untuk mencapai target perusahaan.</p>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition">
+          <h4 class="text-xl font-semibold mb-3 text-blue-600">Pengembangan Website</h4>
+          <p>Tim kami membangun website profesional, responsif, dan modern sesuai kebutuhan bisnis Anda.</p>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition">
+          <h4 class="text-xl font-semibold mb-3 text-blue-600">Digital Marketing</h4>
+          <p>Kami bantu meningkatkan visibilitas dan penjualan melalui strategi pemasaran digital yang efektif.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-20">
+    <div class="container mx-auto px-6 flex flex-col md:flex-row items-center gap-10">
+      <div class="md:w-1/2">
+        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f" alt="About Us" class="rounded-2xl shadow-md">
+      </div>
+      <div class="md:w-1/2">
+        <h3 class="text-3xl font-bold mb-4 text-gray-800">Tentang Kami</h3>
+        <p class="text-gray-600 mb-4">MyCompany berdiri sejak 2020 dan telah membantu berbagai perusahaan dalam pengembangan digital dan konsultasi bisnis. Kami berkomitmen untuk memberikan layanan terbaik dengan mengutamakan profesionalisme, inovasi, dan kepercayaan.</p>
+        <p class="text-gray-600">Tim kami terdiri dari para ahli di bidang teknologi, bisnis, dan marketing yang siap membantu Anda mencapai kesuksesan.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery" class="py-20 bg-gray-100">
+    <div class="container mx-auto px-6 text-center">
+      <h3 class="text-3xl font-bold mb-10 text-gray-800">Galeri Kami</h3>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <img src="https://source.unsplash.com/600x400/?office" alt="Gallery 1" class="rounded-2xl shadow-md hover:scale-105 transition">
+        <img src="https://source.unsplash.com/600x400/?teamwork" alt="Gallery 2" class="rounded-2xl shadow-md hover:scale-105 transition">
+        <img src="https://source.unsplash.com/600x400/?business" alt="Gallery 3" class="rounded-2xl shadow-md hover:scale-105 transition">
+        <img src="https://source.unsplash.com/600x400/?startup" alt="Gallery 4" class="rounded-2xl shadow-md hover:scale-105 transition">
+        <img src="https://source.unsplash.com/600x400/?meeting" alt="Gallery 5" class="rounded-2xl shadow-md hover:scale-105 transition">
+        <img src="https://source.unsplash.com/600x400/?technology" alt="Gallery 6" class="rounded-2xl shadow-md hover:scale-105 transition">
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-600 text-white py-6">
+    <div class="container mx-auto px-6 text-center">
+      <p>&copy; 2025 MyCompany. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
